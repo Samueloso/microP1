@@ -4,9 +4,32 @@
   box-sizing: border-box;
 }
 
+body {
+  background: grey;
+  height: 100%;
+  width: 100%;
+}
 .contenedorME {
+  background: #4bd7e6;
+  height: 100%;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nombre {
+  font-family: sans-serif;
+  color: white;
+}
+.apellido {
+  font-family: sans-serif;
+  color: white;
+}
+
+.email {
+  font-family: sans-serif;
+  color: white;
 }
 
 .listMe {
@@ -15,6 +38,10 @@
 
 .listMe li {
   padding: 20px;
+}
+
+.fromRe {
+  width: 400px;
 }
 
 .fromRe h1 {
@@ -31,8 +58,32 @@
 }
 
 .Formulario button {
-  background: red;
+  background: #ff6219;
   border-radius: 30px;
   padding: 10px;
   border-style: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.dataMe {
+  height: inherit;
+  width: inherit;
+  font-family: sans-serif;
+  color: white;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: center;
+}
+
+.dataMe h2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-list li {
+  list-style: square;
+  font-size: large;
+  color: #ff6219;
 }

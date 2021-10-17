@@ -7,12 +7,12 @@ let email_form = document.getElementById("e-mail");
 
 boton_enviar.addEventListener("click", (event) => {
   if (name_form.value === "") {
-    form.innerHTML += `<h3>Envio fallo, asegurate de completar todos los datos del formulario</h3>`;
+    form.innerHTML += `<div><p>Envio fallo, asegurate de completar todos los datos del formulario</p></div>`;
   } else if (last_form.value === "") {
-    form.innerHTML += `<h3>Envio fallo, asegurate de completar todos los datos del formulario</h3>`;
+    form.innerHTML += `<div><p>Envio fallo, asegurate de completar todos los datos del formulario</p></div>`;
   } else if (email_form.value === "") {
-    form.innerHTML += `<h3>Envio fallo, asegurate de completar todos los datos del formulario</h3>`;
+    form.innerHTML += `<div><p>Envio fallo, asegurate de completar todos los datos del formulario</p></div>`;
   } else {
-    form.innerHTML += `<h2>Envio completado con exito</h2>`;
+    form.innerHTML += `<p>Envio completado con exito</p>`;
   }
 });
