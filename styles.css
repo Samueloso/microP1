@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedorME {
+  display: flex;
+  justify-content: space-around;
+}
+
+.listMe {
+  list-style: none;
+}
+
+.listMe li {
+  padding: 20px;
+}
+
+.fromRe h1 {
+  padding-bottom: 40px;
+}
+
+.Formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.Formulario input {
+  margin-bottom: 20px;
+}
+
+.Formulario button {
+  background: red;
+  border-radius: 30px;
+  padding: 10px;
+  border-style: none;
+}
