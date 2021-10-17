@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-family: "Roboto", sans-serif;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 250px;
+  background: rgb(235, 234, 234);
+}
+
+.listop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.listop li {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.listop button {
+  border-radius: 30px;
+  padding: 5px;
+  cursor: pointer;
+}
