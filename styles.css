@@ -4,15 +4,25 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #4bd7e6;
+  color: white;
 }
 
 .contenedorp {
   height: 155px;
   width: 320px;
   position: relative;
+
+  border: solid 2px black;
+}
+.contenedor {
+  height: 155px;
+  width: 320px;
+  position: relative;
+  border: solid 2px black;
 }
 
-.colo-fondo {
+.color-fondo {
   height: 0;
   width: 100%;
   background-color: red;
@@ -24,12 +34,20 @@ body {
   width: 100%;
   font-size: 12.8em;
   font-weight: bold;
-  color: #5555;
-  background-color: white;
+  color: white;
+  background-color: #4bd7e6;
   position: absolute;
   mix-blend-mode: screen;
   border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.allcontenedor {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

@@ -6,7 +6,7 @@ let tiempo = setInterval(() => {
   color_fondo.style.height = `${cantidad}`;
   numero.textContent = cantidad;
 
-  if (cantidad === 20) {
+  if (cantidad === 5) {
     clearInterval(tiempo);
   }
 }, 80);
