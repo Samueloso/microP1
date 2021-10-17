@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
   outline: 0;
   box-sizing: border-box;
 }
@@ -199,7 +198,6 @@ body {
 .text3 {
   margin-top: 20px;
   list-style: none;
-=======
   box-sizing: border-box;
 }
 
@@ -229,5 +227,4 @@ body {
   border-radius: 30px;
   padding: 5px;
   cursor: pointer;
->>>>>>> nav
 }
