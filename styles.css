@@ -118,4 +118,84 @@ img {
 .adelante {
   right: 2%;
   top: calc(50%-70px);
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(124, 122, 122);
+}
+
+.container {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+}
+/* CARD 1 */
+.card1 {
+  width: 450px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(144, 144, 143);
+}
+
+.pic1 img {
+  height: 300px;
+}
+
+.text1 li {
+  padding: 10px;
+}
+
+.text1 {
+  margin-top: 20px;
+  list-style: none;
+}
+/*CARD 2*/
+
+.card2 {
+  width: 420px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightcoral;
+}
+
+.pic2 img {
+  height: 300px;
+}
+
+.text2 li {
+  padding: 10px;
+}
+
+.text2 {
+  margin-top: 20px;
+  list-style: none;
+}
+
+/*CARD 3*/
+
+.card3 {
+  width: 400px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(192, 185, 185);
+}
+
+.pic3 img {
+  height: 300px;
+}
+
+.text3 li {
+  padding: 10px;
+}
+
+.text3 {
+  margin-top: 20px;
+  list-style: none;
 }
