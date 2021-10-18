@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var imagenes = [
     "https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg",
     "https://quenoticias.com/wp-content/uploads/2021/08/O43TC2B4K5A6VFHYNMB7F4KU74.jpg",
@@ -62,7 +61,6 @@ let tiempo1 = setInterval(() => {
     clearInterval(tiempo1);
   }
 }, 80);
-=======
 const boton_enviar = document.getElementById("boton_send");
 const form = document.getElementById("form_id");
 let name_form = document.getElementById("name");
@@ -81,4 +79,3 @@ boton_enviar.addEventListener("click", (event) => {
     form.innerHTML += `<p>Envio completado con exito</p>`;
   }
 });
->>>>>>> contactme
