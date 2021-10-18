@@ -170,3 +170,36 @@ body {
   margin-top: 20px;
   list-style: none;
 }
+body {
+  font-family: sans-serif;
+  color: white;
+}
+
+.about_container {
+  background: #4bd7e6;
+  height: 1000px;
+  display: flex;
+}
+
+.image_me {
+  height: 500px;
+  width: 300px;
+}
+.image_me img {
+  height: inherit;
+  width: inherit;
+  margin-left: 10px;
+  margin-top: 50px;
+  border-radius: 100%;
+  border-style: solid;
+}
+.descrip_me {
+  margin-top: 80px;
+
+  background-color: 4bd7e6;
+  margin-left: 50px;
+}
+
+.descrip_me li {
+  padding: 10px;
+}
