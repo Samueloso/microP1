@@ -87,3 +87,86 @@ img {
   right: 2%;
   top: calc(50%-70px);
 }
+body {
+  background: #4bd7e6;
+  font-family: sans-serif;
+  color: rgb(236, 218, 218);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+/* CARD 1 */
+.card1 {
+  width: 450px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #ff6219;
+  border: solid rgb(234, 238, 238);
+}
+
+.pic1 img {
+  height: 300px;
+  border: solid white;
+}
+
+.text1 li {
+  padding: 10px;
+}
+
+.text1 {
+  margin-top: 20px;
+  list-style: none;
+}
+/*CARD 2*/
+
+.card2 {
+  width: 420px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #ff6219;
+  border: solid rgb(234, 238, 238);
+}
+
+.pic2 img {
+  height: 300px;
+}
+
+.text2 li {
+  padding: 10px;
+}
+
+.text2 {
+  margin-top: 20px;
+  list-style: none;
+}
+
+/*CARD 3*/
+
+.card3 {
+  width: 400px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #ff6219;
+  border: solid rgb(234, 238, 238);
+}
+
+.pic3 img {
+  height: 300px;
+}
+
+.text3 li {
+  padding: 10px;
+}
+
+.text3 {
+  margin-top: 20px;
+  list-style: none;
+}
